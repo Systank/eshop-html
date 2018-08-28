@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+.description {
+	font-size:"20px"
+}
+
+.display-6 {
+  font-size: 2rem;
+  font-weight: 200;
+  line-height: 1;
+  align: center;
+}
+
+.display-7 {
+  font-size: 1.25rem;
+  font-weight: 150;
+  line-height: 0.8;
+  align: center;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}

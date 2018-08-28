@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<base href="/eshop-html/" />
+		<link rel="stylesheet" type="text/css" href="style.css" />
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+	</head>
+	<body>
+		<nav class="navbar navbar-expand-sm bg-secondary navbar-dark">
+  			<ul class="navbar-nav">
+    			<li class="nav-item">
+      				<a class="nav-link" href="index.html">Accueil</a>
+   				</li>
+    			<li class="nav-item active">
+      				<a class="nav-link" href="produits.html">Produits</a>
+   				</li>
+    			<li class="nav-item">
+      				<a class="nav-link" href="contact.html">Contact</a>
+    			</li>
+  			</ul>
+		</nav>
+		
+		<div class="container">
+			<header class="header">
+				<h1>Les Produits</h1>
+			</header>
+			<table class="table table-dark table-striped">
+			    <thead>
+			      <tr>
+			        <th>Nom</th>
+			        <th>Prix</th>
+			        <th>Fournisseur</th>
+			        <th></th>
+			      </tr>
+			    </thead>
+			    <tbody>
+			      <tr>
+			       <td>Iphone X</td>
+			       <td>1150</td>
+			       <td>Apple</td>
+			       <td>
+			        	<button type="button" class="btn btn-info">Editer</button>
+			        	<button type="button" class="btn btn-danger">Supprimer</button>
+			       </td>
+			      </tr>
+			      <tr>
+			        <td>Galaxy Note 9</td>
+			        <td>1100</td>
+			        <td>Samsung</td>
+			        <td>
+			        	<button type="button" class="btn btn-info">Editer</button>
+			        	<button type="button" class="btn btn-danger">Supprimer</button>
+			        </td>
+			      </tr>
+			      <tr>
+			        <td>GoPro Hero 6 Black</td>
+			        <td>450</td>
+			        <td>GoPro</td>
+			   		<td>
+			        	<button type="button" class="btn btn-info">Editer</button>
+			        	<button type="button" class="btn btn-danger">Supprimer</button>
+			        </td>
+			      </tr>
+			    </tbody>
+			  </table>
+			<form action="/action_page.php">
+				 <div class="form-group">
+     				<label for="nom">Nom:</label>
+     				<input type="text" class="form-control" id="nam" name="nom">
+   				</div>
+   				<div class="form-group">
+      				<label for="prix">Prix:</label>
+      				<input type="text" class="form-control" id="prix" name="prix">
+    			</div> 
+				Fournisseur :<br>
+     			<select class="form-control" id="sel1" name="sellist1">
+       				<option></option>
+        			<option>Apple</option>
+       				<option>GoPro</option>
+        			<option>Samsung</option>
+      			</select>
+      			<br>
+				<button type="button" class="btn btn-dark">Valider</button>
+			</form>
+			<footer class="footer">
+				Copyright &copy;Systank 2018
+			</footer>
+		</div>
+	</body>
+</html>
